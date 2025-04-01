@@ -1,8 +1,6 @@
 import React from 'react'
-import { UserAuthStore } from '../store/UserAuthStore.js';
 
 const LoginPage = () => {
-    const { authUser } = UserAuthStore();
     return (
         <div className="py-8">
             <h1 className="text-2xl font-bold text-center mb-6">Login to Your Account</h1>
